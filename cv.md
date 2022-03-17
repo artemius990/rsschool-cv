@@ -2,7 +2,7 @@
 
 ### **Contacts:**
 * artbreenche@gmail.com
-* [www.linkedin.com/in/artem-lapenkov](linkedin)
+* [https://www.linkedin.com/in/artem-lapenkov-a475bb1a1/](linkedin)
 
 ### **About Me:**
 <p align="left">I like to learn something new, develop, improve my skills and abilities. I first started learning programming in 2018, my friends work as programmers. I am interested in different things, I try to expand my horizons.
