@@ -1,0 +1,175 @@
+body {  
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;   
+}
+
+a {	
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+   color: green;
+  text-decoration: underline;
+}
+
+
+.photo {
+  width: 300px;
+  
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); 
+}
+
+.header {
+  height:450px;  
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 700px) {
+  .header {
+    text-align: center;
+    display: block;
+  }
+}
+
+.me{
+	margin-left: 25px;
+}
+
+h2{
+	font-size: 16px;
+}
+
+
+.header p {
+  color: black;
+  margin: 0;
+  font-style: auto;
+  /* font-weight: bold; */
+  text-decoration: none; 
+}
+
+/* Box Model */
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.first {
+  background: #e5ffe7;
+}
+
+.second {
+  background: #fff9dc;
+}
+
+.third {
+  background: #e5ffe7;
+}
+
+.block {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.block h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+  color: black;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;  
+}
+
+.skills {
+  padding: 0 20px;
+}
+
+.skills li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  /* border-bottom: 2px solid #ccc; */
+  color: black; 
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ccc;
+  /* color: #000; */
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background: green;
+  padding: 15px 20px;
+  color: white;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+
